@@ -44,7 +44,7 @@
   z-index: 2;
 }
 
-.header__span-accent {
+.header__title-span-accent {
   display: block;
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: italic;
@@ -53,7 +53,7 @@
   color: #2f80ed;
 }
 
-.header__description {
+.header__title-description {
   display: block;
   font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
@@ -73,7 +73,17 @@
   top: 124px;
 }
 
-.nav__links {
+.header__nav {
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.header__nav-links {
   display: flex;
   align-items: center;
   column-gap: 20px;
