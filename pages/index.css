@@ -168,8 +168,8 @@
 
 .recipes__videos {
   display: flex;
-justify-content: center;
-flex-direction: row;
+  justify-content: center;
+  flex-direction: row;
   margin: 40px;
 }
 
