@@ -83,7 +83,7 @@
   margin-top: 30px;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -167,14 +167,13 @@
 }
 
 .recipes__videos {
-  position: relative;
+  display: flex;
+justify-content: center;
+flex-direction: row;
   margin: 40px;
 }
 
 .recipes__iframes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   border: none;
 
 }
