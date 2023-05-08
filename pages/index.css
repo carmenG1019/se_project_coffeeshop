@@ -73,7 +73,7 @@
   top: 124px;
 }
 
-.header__nav {
+.header__wrapper-nav {
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -83,7 +83,7 @@
   margin-top: 30px;
 }
 
-.header__nav-links {
+.header__wrapper-nav-links {
   display: flex;
   align-items: center;
   column-gap: 20px;
