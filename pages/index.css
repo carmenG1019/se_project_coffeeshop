@@ -73,14 +73,14 @@
   top: 124px;
 }
 
-.nav {
+.header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
 
-.nav__links {
+.header__nav__links {
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
