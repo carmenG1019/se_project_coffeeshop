@@ -73,7 +73,14 @@
   top: 124px;
 }
 
-.header__nav-link {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav__links {
   font-family: "Inter", arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -81,9 +88,6 @@
   line-height: 20px;
   margin-right: 80px;
   margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
 }
 
 .header__title {
