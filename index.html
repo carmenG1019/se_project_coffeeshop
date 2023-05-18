@@ -85,7 +85,30 @@
           </div>
         </section>
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="reservations"></section>
+        <section class="reservation" id="reservations">
+              <h1 class="reservation__title">Book a Table</h1>
+              <div class="reservation__form">
+                <form class="form">
+              <fieldset class="form__fieldset">
+                <label for="name" class="form__label">Name*</label>
+                <input type="text" class="form__input" required id="name" name="name" placeholder="Name Surname"/>
+                <label for="number-of-guests" class="form__label">Number of Guests*</label>
+                <input type="number" min="1" max="8" class="form__input" required name="number-of-guests" id="number-of-guests" placeholder="1-8"/>
+                <label for="date-and-time" class="form__label">Date & Time*</label>
+                <input type="datetime-local" class="form__input" id="date-and-time" name="date-and-time"/>
+                <label for="your-email" class="form__label">Your email*</label>
+                <input type="email" required class="form__input" id="your-email" name="your-email" placeholder="email@email.com"/>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <button type="submit" class="form__button">Book a Table</button>
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label name="terms" class="form__label form__checkbox">I agree with the terms of use</label>
+          <input type="checkbox" class="form__checkbox_box" name="terms" id="terms"/>
+        </fieldset>
+          </form>
+          </div>
+        </section>
         <section class="about" id="contact"></section>
       </main>
       <footer class="footer"></footer>

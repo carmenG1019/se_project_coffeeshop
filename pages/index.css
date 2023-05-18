@@ -20,11 +20,6 @@
   background-size: cover;
 }
 
-.header__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header__logo {
   display: block;
   height: 142px;
@@ -89,7 +84,10 @@
   margin-right: 80px;
 }
 
-.nav__links {
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font-family: "Inter", arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -155,7 +153,7 @@
   max-width: 580px;
   padding-top: 100px;
   margin-left: 80px;
-  font-family: "Inter",  Arial, sans-serif; 
+  font-family: "Inter", Arial, sans-serif; 
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -194,6 +192,81 @@
 }
 
 .reservation {
+  display: block;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form {
+  max-width: 385px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+ }
+
+.reservation__title {
+  padding: 100px 0 80px;
+  text-align: center;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.form__label {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500; 
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.form__input[type="text"],
+.form__input[type="number"],
+.form__input[type="datetime-local"],
+.form__input[type="email"]  {
+  border-radius: 4px;
+  margin-bottom: 32px;
+  block-size: 60px;
+  border: #838383;
+}
+.form__input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.form__checkbox_box {
+ width: 20px;
+ height: 20px;
+ margin-right: 12px;
+ align-self: center;
+}
+
+.form__button {
+  border-radius:4px;
+  max-width: 385px;
+  min-height: 60px;
+  background: #2f71e5;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500px;
+  border: none;
 }
 
 .about {
