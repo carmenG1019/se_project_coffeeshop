@@ -247,7 +247,7 @@
 
 .form__checkbox {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .form__checkbox_box {

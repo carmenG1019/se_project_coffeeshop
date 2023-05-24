@@ -90,21 +90,21 @@
               <div class="reservation__form">
                 <form class="form">
               <fieldset class="form__fieldset">
-                <label for="text" class="form__label">Name*</label>
-                <input type="text" class="form__input" required id="name" placeholder="Name Surname"/>
-                <label for="number" class="form__label">Number of Guests*</label>
-                <input type="number" min="1" max="8" class="form__input" required id="number-of-guests" placeholder="1-8"/>
-                <label for="date-and-time" class="form__label">Date & Time*</label>
-                <input type="datetime-local" class="form__input" id="date-and-time" />
-                <label for="your-email" class="form__label">Your email*</label>
-                <input type="email" required class="form__input" id="your-email" placeholder="email@email.com"/>
+                <label for="name" class="form__label">Name *</label>
+                <input type="text" class="form__input" id="guest" placeholder="Name Surname"/>
+                <label for="guest" class="form__label">Number of Guests *</label>
+                <input type="number" min="1" max="8" class="form__input"  placeholder="1-8"/>
+                <label for="datetime-local" class="form__label">Date & Time *</label>
+                <input type="datetime-local" class="form__input" id="date" />
+                <label for="email" class="form__label">Your email *</label>
+                <input type="email" class="form__input" id="email" placeholder="email@email.com"/>
           </fieldset>
           <fieldset class="form__fieldset">
             <button type="submit" class="form__button">Book a Table</button>
         </fieldset>
         <fieldset class="form__fieldset">
-          <label for="checkbox" class="form__label form__checkbox">I agree with the terms of use</label>
-          <input type="checkbox" class="form__label form__checkbox_box" id="terms"/>
+          <label class="form__label form__checkbox">I agree with the terms of use</label>
+          <input type="checkbox" class="form__label form__checkbox_box"/>
         </fieldset>
           </form>
           </div>
