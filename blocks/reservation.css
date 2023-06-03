@@ -16,6 +16,7 @@
   margin: 0;
 }
 .reservation__form {
+  display: block;
   max-width: 385px;
   margin: 0 auto;
   padding-bottom: 120px;
