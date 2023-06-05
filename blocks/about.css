@@ -46,7 +46,9 @@
   
   .about__paragraph {
     margin-bottom: 20px;
-    margin-top: 0;
+  }
+  .about__paragraph:last-child {
+    margin: 0;
   }
     
   .about__circle {

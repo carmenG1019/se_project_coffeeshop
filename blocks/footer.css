@@ -21,6 +21,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    margin: 0;
   }
   
   .footer__list {
@@ -32,7 +33,7 @@
     line-height: 20px;
     padding: 0;
     margin-top: 20px;
-    
+    margin-bottom: 0;
   }
   
   .footer__list-item {
